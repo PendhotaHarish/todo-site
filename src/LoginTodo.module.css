@@ -46,3 +46,94 @@ h1 {
   background-color: var(--color-brand--1);
   color: var(--color-dark--1);
 }
+/* Mobile (portrait) */
+@media (max-width: 480px) {
+  .login {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .form {
+    padding: 1rem;
+    width: 100%;
+    margin: 4rem auto;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.8rem;
+  }
+}
+
+/* Mobile (landscape) */
+@media (max-width: 768px) and (orientation: landscape) {
+  .login {
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .form {
+    padding: 1.5rem;
+    width: 100%;
+    margin: 6rem auto;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.8rem;
+  }
+}
+
+/* Tablet (portrait) */
+@media (min-width: 481px) and (max-width: 834px) {
+  .login {
+    margin: 2rem;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .form {
+    padding: 1.5rem;
+    width: 90%;
+    margin: 6rem auto;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.8rem;
+  }
+}
+
+/* Tablet (landscape) */
+@media (min-width: 835px) and (max-width: 1024px) and (orientation: landscape) {
+  .login {
+    margin: 2rem;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  .form {
+    padding: 2rem;
+    width: 80%;
+    margin: 6rem auto;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.8rem;
+  }
+}

@@ -43,7 +43,7 @@ function LoginTodo() {
 
   return (
     <div className={styles.login}>
-      <h1>Todo-List Signin</h1>
+      <h1>Todo Application</h1>
       <form className={styles.form} onSubmit={handleSubmit}>
         <div className={styles.row}>
           <label>UserName</label>

@@ -1,4 +1,5 @@
-import styles from "./TodoPage.module.css";
+import styles from "./TodoList.module.css";
+import pageStyles from "./TodoPage.module.css";
 
 function TodoList({
   todo,
@@ -8,7 +9,7 @@ function TodoList({
   getCurrentDate,
 }) {
   return (
-    <div>
+    <div className={pageStyles.main}>
       <ul>
         {todo.map((todoText) => (
           <li key={todoText} className={styles.todoList}>

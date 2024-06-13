@@ -44,8 +44,95 @@ textarea {
   background-color: var(--color-light--3);
   transition: all 0.2s;
 }
-.div1{
-  background-color:#00c46a;
+.div1 {
+  background-color: #00c46a;
   width: 20rem;
   height: 20rem;
+}
+/* Mobile (portrait) */
+@media (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+
+  label {
+    font-size: 1.4rem;
+  }
+
+  input,
+  textarea {
+    padding: 0.6rem 1rem;
+    font-size: 1.4rem;
+  }
+
+  .div1 {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+/* Mobile (landscape) */
+@media (max-width: 834px) and (orientation: landscape) {
+  html {
+    font-size: 55%;
+  }
+
+  label {
+    font-size: 1.5rem;
+  }
+
+  input,
+  textarea {
+    padding: 0.7rem 1.1rem;
+    font-size: 1.5rem;
+  }
+
+  .div1 {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
+/* Tablet (portrait) */
+@media (min-width: 481px) and (max-width: 834px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  label {
+    font-size: 1.6rem;
+  }
+
+  input,
+  textarea {
+    padding: 0.8rem 1.2rem;
+    font-size: 1.6rem;
+  }
+
+  .div1 {
+    width: 18rem;
+    height: 18rem;
+  }
+}
+
+/* Tablet (landscape) */
+@media (min-width: 835px) and (max-width: 1024px) and (orientation: landscape) {
+  html {
+    font-size: 60%;
+  }
+
+  label {
+    font-size: 1.6rem;
+  }
+
+  input,
+  textarea {
+    padding: 0.8rem 1.2rem;
+    font-size: 1.6rem;
+  }
+
+  .div1 {
+    width: 19rem;
+    height: 19rem;
+  }
 }
